@@ -53,16 +53,12 @@
     [self.view addSubview:self.timeLabel];
     self.timeLabel.text = [NSDate timeDescriptionOfTimeInterval:137894567];
 //    []
-
-
-
 }
+
 - (void)buttonAction1:(UIButton *)sender
 {
     CTAssetsPickerController * picker = [[CTAssetsPickerController alloc] init];
     [self presentViewController:picker animated:YES completion:nil];
-    
-    
 }
 
 - (void)buttonAction:(UIButton *)sender
